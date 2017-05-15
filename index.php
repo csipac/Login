@@ -4,7 +4,7 @@
 	require 'funcs/funcs.php';
 	session_start();
 
-	if(isset($_SESSION["id_usuario"])){ //En caso de existir la sesión redireccionamos
+	if(isset($_SESSION["id_usuario"])){ //En caso de existir la sesión se redirecciona
 		header("Location: welcome.php");
 	}
 

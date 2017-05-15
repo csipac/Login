@@ -122,7 +122,7 @@
 	function enviarEmail($email, $nombre, $asunto, $cuerpo){
 
 		require_once 'PHPMailer/PHPMailerAutoload.php';
-
+		//PUEDES CAMBIAR TU CORREO ELECTRONICO POR EL MIO 
 		$mail = new PHPMailer();
 		$mail->isSMTP();
 		$mail->SMTPAuth = true;

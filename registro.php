@@ -13,7 +13,7 @@
 
 		$activo = 0;
 		$tipo_usuario = 2;
-		$secret = '6LdyNCEUAAAAAHzuVpuQh0Zx9OIjetgqLXXvgV1m';
+		$secret = '6LdyNCEUAAAAAHzuVpuQh0Zx9OIjetgqLXXvgV1m';// esta es la llave secreta del recaptcha 
 
 
 
